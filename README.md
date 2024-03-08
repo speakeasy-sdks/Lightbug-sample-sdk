@@ -80,6 +80,7 @@ res = s.drinks.list_drinks(drink_type=shared.DrinkType.SPIRIT)
 if res.classes is not None:
     # handle response
     pass
+
 ```
 <!-- End SDK Example Usage [usage] -->
 
@@ -141,6 +142,7 @@ except errors.SDKError as e:
 if res.object is not None:
     # handle response
     pass
+
 ```
 <!-- End Error Handling [errors] -->
 
@@ -174,6 +176,7 @@ res = s.authentication.authenticate(req)
 if res.object is not None:
     # handle response
     pass
+
 ```
 
 #### Variables
@@ -200,6 +203,7 @@ res = s.authentication.authenticate(req)
 if res.object is not None:
     # handle response
     pass
+
 ```
 <!-- End Server Selection [server] -->
 
@@ -246,6 +250,7 @@ res = s.authentication.authenticate(req)
 if res.object is not None:
     # handle response
     pass
+
 ```
 <!-- End Authentication [security] -->
 

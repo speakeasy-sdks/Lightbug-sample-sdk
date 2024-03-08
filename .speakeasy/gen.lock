@@ -3,23 +3,24 @@ id: 30181fe2-48d4-40a4-846b-9787609fa2fd
 management:
   docChecksum: 8db86c8597b22945c2b3f77241037075
   docVersion: 1.0.0
-  speakeasyVersion: internal
-  generationVersion: 2.275.4
-  releaseVersion: 2.1.0
-  configChecksum: bfb75d524ba41d1796627f70a51c4ea8
+  speakeasyVersion: 1.204.1
+  generationVersion: 2.279.1
+  releaseVersion: 2.2.0
+  configChecksum: a99bb049f4aafd6c1e1d24893fad5995
   repoURL: https://github.com/speakeasy-sdks/Lightbug-sample-sdk.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/Lightbug-sample-sdk.git
 features:
   python:
     callbacks: 1.0.0
-    core: 4.5.0
+    core: 4.5.1
     errors: 2.81.8
     examples: 2.81.3
     flattening: 2.81.1
     globalSecurity: 2.83.4
     globalServerURLs: 2.82.1
     inputOutputModels: 2.83.1
+    responseFormat: 0.1.0
     serverIDs: 2.81.1
     webhooks: 1.0.0
 generatedFiles:
@@ -30,6 +31,7 @@ generatedFiles:
   - src/speakeasybar/orders.py
   - src/speakeasybar/config.py
   - src/speakeasybar/sdk.py
+  - py.typed
   - pylintrc
   - setup.py
   - src/speakeasybar/__init__.py
